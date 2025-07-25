@@ -68,8 +68,6 @@ python manage.py migrate
 
 # Start development server
 python manage.py runserver
-## 📸 Screenshots
-
 ### 🏠 Home Page
 
 ![Home Page](screenshots/home_page.png)
@@ -78,9 +76,8 @@ python manage.py runserver
 
 ### ⚙️ Django Admin Panel
 
-![Admin Page](https://github.com/Munavir-Ali/ToDo_App/blob/main/screenshots/django_admin_page.png)
+![Admin Page](screenshots/django_admin_page.png)
 
-⚙️ Django Admin Panel
 
 🧠 About the Developer
 This project was developed as part of my internship at Futuro IT Solutions during my B.Tech in Computer Science. It showcases backend development using Django and effective use of Django’s built-in admin interface.
