@@ -72,7 +72,7 @@ python manage.py runserver
 
 ### 🏠 Home Page
 
-![Home Page](https://github.com/Munavir-Ali/ToDo_App/blob/main/screenshots/home_page.png)
+![Home Page](screenshots/home_page.png)
 
 ---
 
