@@ -29,14 +29,14 @@ A full-stack ToDo list application developed using Django as part of my internsh
 
 ## 📁 Project Structure
 
-todo-app/
+todoproject/
 ├── manage.py
 ├── todo/ # Main app
 │ ├── admin.py
 │ ├── models.py
 │ ├── views.py
 │ └── ...
-├── todo_project/ # Project folder
+├── todoproject/ # Project folder
 │ ├── settings.py
 │ ├── urls.py
 │ └── ...
