@@ -72,13 +72,13 @@ python manage.py runserver
 
 ### 🏠 Home Page
 
-![Home Page](screenshots/home_page.png)
+![Home Page](https://github.com/Munavir-Ali/ToDo_App/blob/main/screenshots/home_page.png)
 
 ---
 
 ### ⚙️ Django Admin Panel
 
-![Admin Page](screenshots/django_admin_page.png)
+![Admin Page](https://github.com/Munavir-Ali/ToDo_App/blob/main/screenshots/django_admin_page.png)
 
 ⚙️ Django Admin Panel
 
