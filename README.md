@@ -9,7 +9,7 @@ A full-stack ToDo list application developed using Django as part of my internsh
 ## 🔧 Tech Stack
 
 - **Backend**: Django (Python)
-- **Frontend**: HTML, CSS (optional Bootstrap)
+- **Frontend**: HTML, CSS (Bootstrap optional)
 - **Database**: SQLite
 - **Admin Interface**: Django Admin Panel
 
@@ -40,11 +40,12 @@ todoproject/
 │ ├── settings.py
 │ ├── urls.py
 │ └── ...
-└── templates/ # HTML templates (if any)
+├── templates/ # HTML templates (if any)
+├── db.sqlite3 # Development database
+└── screenshots/ # UI screenshots for documentation
 
 yaml
-Copy
-Edit
+Copy code
 
 ---
 
@@ -52,12 +53,12 @@ Edit
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/todo-app.git
-cd todo-app
+git clone https://github.com/Munavir-Ali/ToDo_App.git
+cd ToDo_App
 
 # Create virtual environment
 python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
+env\Scripts\activate  # For Windows
 
 # Install dependencies
 pip install -r requirements.txt
@@ -65,5 +66,38 @@ pip install -r requirements.txt
 # Run migrations
 python manage.py migrate
 
-# Run the server
+# Start development server
 python manage.py runserver
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/home_page.png)
+
+---
+
+### ⚙️ Django Admin Panel
+
+![Admin Page](screenshots/django_admin_page.png)
+
+⚙️ Django Admin Panel
+
+🧠 About the Developer
+This project was developed as part of my internship at Futuro IT Solutions during my B.Tech in Computer Science. It showcases backend development using Django and effective use of Django’s built-in admin interface.
+
+📄 License
+This project is open source and available under the MIT License.
+
+yaml
+Copy code
+
+---
+
+✅ You can now:
+1. Save this as your `README.md` file.
+2. Run the following to push:
+
+```bash
+git add README.md
+git commit -m "Updated full README with project info and screenshots"
+git push origin main
